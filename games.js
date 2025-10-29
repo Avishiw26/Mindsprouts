@@ -1,0 +1,42 @@
+export const games = [
+  {
+    id: 1,
+    title: "🅰️ Alphabet Explorer",
+    desc: "Learn letters through fun animations!",
+    image: require("./assets/alphabet.jpg"),
+    packageName: "com.MindSprouts.AlphabetGame",
+    apkUrl: "https://github.com/DivitParekh/mindsprouts-games/raw/main/assets/games/Alphabet_Game.apk",
+  },
+  {
+    id: 2,
+    title: "🧠 Memory Master",
+    desc: "Match pairs and boost your memory!",
+    image: require("./assets/memory.jpg"),
+    packageName: "com.MindSprouts.MemoryGame",
+    apkUrl: "https://github.com/DivitParekh/mindsprouts-games/raw/main/assets/games/memoryGame.apk",
+  },
+  {
+    id: 3,
+    title: "🔢 Number Quest",
+    desc: "Test your number skills in quick challenges!",
+    image: require("./assets/numbers.jpg"),
+    packageName: "com.mindsprouts.NumberGame",
+    apkUrl: "https://github.com/DivitParekh/mindsprouts-games/raw/main/assets/games/number-quiz.apk",
+  },
+  {
+    id: 4,
+    title: "🔍 Word Spy",
+    desc: "Find hidden words and sharpen vocabulary!",
+    image: require("./assets/wordspy.jpg"),
+    packageName: "com.MindSprouts.WordSpy",
+    apkUrl: "https://github.com/DivitParekh/mindsprouts-games/raw/main/assets/games/wordspy-app.apk",
+  },
+  {
+    id: 5,
+    title: "🎵 Musical Xylo",
+    desc: "Play colorful tunes and create your melody!",
+    image: require("./assets/xylophone.jpg"),
+    packageName: "com.mindsprouts.Xylophone",
+    apkUrl: "https://github.com/DivitParekh/mindsprouts-games/raw/main/assets/games/Xylophone_Game1.apk",
+  },
+];
